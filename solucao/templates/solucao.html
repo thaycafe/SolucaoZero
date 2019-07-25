@@ -69,19 +69,57 @@
     </div>
     <div class="row">
         <div class="col">
-            <img class="img-fluid sm" src="/static/img/stamp.png" alt="foto de perfil">
+            <!-- <img class="img-fluid sm" src="/static/img/stamp.png" alt="foto de perfil"> -->
+            <input type="image" src="/static/img/stamp.png"  alt="foto de perfil" id="myBtn">
+              <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    
+                    </div>
+                    <div class="modal-body" style="padding:40px 50px;">
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="usrname"><span class="glyphicon glyphicon-user"></span> Instituição</label>
+                            <input type="text" class="form-control" id="usrname" placeholder="Digite o nome da Instituição">
+                        </div>
+                        <div class="form-group">
+                            <label for="usrname"><span class="glyphicon glyphicon-user"></span> Matrícula</label>
+                            <input type="text" class="form-control" id="usrname" placeholder="Digite sua matrícula">
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Salvar</button>
+                    </form>
+                    </div>
+                    
+                </div>
+                
+                </div>
+            </div> 
+          
+            <script>
+                    $(document).ready(function(){
+                        $("#myBtn").click(function(){
+                            $("#myModal").modal();
+                        });
+                    });
+                </script>
+        
         </div>
         <div class="col">
                 
         </div>
         <div class="col">
-                <img class="img-fluid sm" src="/static/img/stamp.png" alt="foto de perfil">
+            <input type="image" src="/static/img/stamp.png"  alt="foto de perfil">
         </div>
         <div class="col">
 
         </div>
         <div class="col">
-                <img class="img-fluid sm" src="/static/img/stamp.png" alt="foto de perfil">
+            <input type="image" src="/static/img/stamp.png"  alt="foto de perfil">
         </div>
         <div class="col">
 
@@ -102,21 +140,24 @@
 
         </div>
         <div class="col">
-                <img class="img-fluid sm" src="/static/img/stamp.png" alt="foto de perfil">
+            <input type="image" src="/static/img/stamp.png"  alt="foto de perfil">
         </div>
         <div class="col">
 
         </div>
         <div class="col">
-                <img class="img-fluid sm" src="/static/img/stamp.png" alt="foto de perfil">
+            <input type="image" src="/static/img/stamp.png"  alt="foto de perfil">
         </div>
         <div class="col">
 
         </div>
         <div class="col">
-                <img class="img-fluid sm" src="/static/img/stamp.png" alt="foto de perfil">
+            <input type="image" src="/static/img/stamp.png"  alt="foto de perfil">
         </div>
     </div>
+   
+    
     
 </div>
 {% endblock %}
+
