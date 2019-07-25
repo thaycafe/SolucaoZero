@@ -3,7 +3,7 @@
 {% block link %}
 {% endblock %}
 
-{% block title %}Solucao{% endblock %}
+{% block title %}SoluçãoZero{% endblock %}
 
 {% block main %}
 <!-- <div class="container p-4">
@@ -63,75 +63,82 @@
                 <img class="img-fluid sm" src="/static/img/man.png" alt="foto de perfil">
             </div>
             <div class="col-sm-9">
-                <h2>José Hackthon Serpro</h2>
+                <h2>Serzedello Corrêa Serpro</h2>
+                <p>123.123.123-12</p>
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col">
             <!-- <img class="img-fluid sm" src="/static/img/stamp.png" alt="foto de perfil"> -->
-            <input type="image" src="/static/img/stamp.png"  alt="foto de perfil" id="myBtn">
-              <!-- Modal -->
+            <input type="image" src="/static/img/student.png" alt="foto de perfil" id="myBtn">
+            <!-- Modal -->
             <div class="modal fade" id="myModal" role="dialog">
                 <div class="modal-dialog">
-                
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    
-                    </div>
-                    <div class="modal-body" style="padding:40px 50px;">
-                    <form role="form">
-                        <div class="form-group">
-                            <label for="usrname"><span class="glyphicon glyphicon-user"></span> Instituição</label>
-                            <input type="text" class="form-control" id="usrname" placeholder="Digite o nome da Instituição">
-                        </div>
-                        <div class="form-group">
-                            <label for="usrname"><span class="glyphicon glyphicon-user"></span> Matrícula</label>
-                            <input type="text" class="form-control" id="usrname" placeholder="Digite sua matrícula">
-                        </div>
-                        <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Salvar</button>
-                    </form>
-                    </div>
-                    
-                </div>
-                
-                </div>
-            </div> 
-          
-            <script>
-                    $(document).ready(function(){
-                        $("#myBtn").click(function(){
-                            $("#myModal").modal();
-                        });
-                    });
-                </script>
-        
-        </div>
-        <div class="col">
-                
-        </div>
-        <div class="col">
-            <input type="image" src="/static/img/stamp.png"  alt="foto de perfil">
-        </div>
-        <div class="col">
 
-        </div>
-        <div class="col">
-            <input type="image" src="/static/img/stamp.png"  alt="foto de perfil">
-        </div>
-        <div class="col">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3>Selo de estudante</h3>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
 
+                        </div>
+                        <div class="modal-body" ">
+                            <form role=" form">
+                            <div class="form-group">
+                                <label for="usrname"><span class="glyphicon glyphicon-education"></span>
+                                    Instituição</label>
+                                <input type="text" class="form-control"
+                                    placeholder="Digite o nome da Instituição" 	value="Universidade Federal de Processamento de Dados">
+                            </div>
+                            <div class="form-group">
+                                <label for="usrname"><span class="	glyphicon glyphicon-credit-card"></span>
+                                    Matrícula</label>
+                                <input type="text" class="form-control" placeholder="Digite sua matrícula" value="23242526">
+                            </div>
+                            <button type="submit" class="btn btn-success btn-block"><span
+                                    class="glyphicon glyphicon-ok"></span> Salvar</button>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
+
+            <script>
+                $(document).ready(function () {
+                    $("#myBtn").click(function () {
+                        $("#myModal").modal();
+                    });
+                });
+            </script>
+
+        </div>
+        <div class="col">
+
+        </div>
+        <div class="col">
+            <input type="image" src="/static/img/militar.png" alt="foto de perfil" id="myBtn">
+
+        </div>
+        <div class="col">
+
+        </div>
+        <div class="col">
+            <input type="image" src="/static/img/rf2.png" alt="foto de perfil" id="myBtn">
+        </div>
+        <div class="col">
+
+        </div>
     </div>
     <div class="row">
         <div class="col">
             <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                        aria-valuemax="100"></div>
-                <!-- <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
-                aria-valuemax="100"></div> -->
+                <!-- <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                    aria-valuemax="100"></div> -->
+                <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 25%"
+                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
         </div>
     </div>
@@ -140,24 +147,97 @@
 
         </div>
         <div class="col">
-            <input type="image" src="/static/img/stamp.png"  alt="foto de perfil">
+            <input type="image" src="/static/img/passe2.png " alt="foto de perfil" id="btnPasse">
+            <div class="modal fade" id="modalPasse" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3>Selo do Passe Estudantil</h3>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                        </div>
+                        <div class="modal-body" ">
+                                <form role=" form">
+                            <div class="form-group">
+                                <label for="usrname"><span class="glyphicon glyphicon-credit-card"></span>
+                                    Código do cartão</label>
+                                <input type="text" class="form-control" 
+                                    placeholder="Digite o código do seu passe estudantil" value="25262728">
+                            </div>
+                            <button type="submit" class="btn btn-success btn-block"><span
+                                    class="glyphicon glyphicon-ok"></span> Salvar</button>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <script>
+                $(document).ready(function () {
+                    $("#btnPasse").click(function () {
+                        $("#modalPasse").modal();
+                    });
+                });
+            </script>
         </div>
         <div class="col">
 
         </div>
         <div class="col">
-            <input type="image" src="/static/img/stamp.png"  alt="foto de perfil">
+            <input type="image" src="/static/img/fies2.png" alt="foto de perfil" id="myBtn">
         </div>
         <div class="col">
 
         </div>
         <div class="col">
-            <input type="image" src="/static/img/stamp.png"  alt="foto de perfil">
+            <input type="image" src="/static/img/inss2.png" alt="foto de perfil" id="myBtn">
         </div>
     </div>
-   
-    
-    
+    <div class="container mt-5 p-3">
+
+
+        <div class="card mt-5 text-center">
+            <div class="card-header bg-warning">
+                <h2 class="font-weight-bold"> Seus Selos</h2>
+            </div>
+            <div class="card-body bg-light">
+                <div class="row">
+                    <div class="col">
+                        <img src="/static/img/student-hat.png" alt="Selo de Estudante">
+                    </div>
+                    <div class="col">
+                        <img src="/static/img/passe.png" alt="Selo do passe estudantil">
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                      
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
 </div>
 {% endblock %}
-
